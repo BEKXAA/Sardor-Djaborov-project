@@ -5,7 +5,7 @@ const translations = {
     contact: 'Контакты',
     name: 'Сардор Джабаров',
     profession: 'Инженер-строитель',
-    bio: 'Я — строительный блогер, делюсь опытом и  советами по современному строительству и ремонту.',
+    bio: 'Я — строительный блогер,  делюсь опытом и  советами по современному строительству и ремонту. Если вам нужны советы по современному строительству и ремонту — напишите мне!',
     name_placeholder: 'Имя',
     email_placeholder: 'Email',
     message_placeholder: 'Сообщение',
@@ -20,7 +20,7 @@ const translations = {
     contact: 'Aloqa',
     name: 'Sardor Djabarov',
     profession: 'Injener-quruvchi',
-    bio: 'Men qurilish blogeriman, zamonaviy qurilish va ta\'mirlash bo\'yicha tajriba va maslahatlarimni ulashaman.',
+    bio: 'Men qurilish blogeriman, zamonaviy qurilish va ta\'mirlash bo\'yicha tajriba va maslahatlarimni ulashaman Agar sizga zamonaviy qurilish va tamirlash boyicha maslahatlar kerak bolsa menga yozing!',
     name_placeholder: 'Ism',
     email_placeholder: 'Email',
     message_placeholder: 'Xabar',
@@ -35,7 +35,7 @@ const translations = {
     contact: 'Contact',
     name: 'Sardor Djabarov',
     profession: 'Civil Engineer',
-    bio: 'I am a construction blogger sharing experience and tips on modern building and renovation.',
+    bio: 'I am a construction blogger sharing experience and tips on modern building and renovation. If you need advice on modern construction and renovation — feel free to message me!',
     name_placeholder: 'Name',
     email_placeholder: 'Email',
     message_placeholder: 'Message',
@@ -107,3 +107,4 @@ themeToggle.addEventListener('click', () => {
 // On load, set theme from localStorage
 const savedTheme = localStorage.getItem('theme');
 setTheme(savedTheme === 'light' ? 'light' : 'dark');
+

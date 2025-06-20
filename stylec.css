@@ -23,13 +23,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.logo {
+.logo a{
   font-weight: 700;
   font-size: 1.5rem;
   color: #4fd1c5;
   letter-spacing: 1px;
   text-shadow: 0 2px 8px #1a202c44;
   transition: color 0.3s;
+  text-decoration: none;
 }
 nav ul {
   list-style: none;
@@ -51,7 +52,8 @@ nav a:hover {
 }
 .lang-switcher {
   display: flex;
-  gap: 8px;
+  gap: 15px;
+  padding: 10px 15px;
 }
 .lang-switcher button {
   background: #232526;
@@ -63,6 +65,7 @@ nav a:hover {
   font-weight: 600;
   transition: background 0.2s, color 0.2s, border 0.2s;
   box-shadow: 0 1px 6px #1a202c33;
+
 }
 .lang-switcher button:hover {
   background: #4fd1c5;
@@ -437,6 +440,21 @@ body.light-mode .facebook-link:hover {
   background: linear-gradient(90deg, #0052cc 0%, #1877f3 100%);
   box-shadow: 0 4px 24px #1877f3cc;
 }
+
+.Malumotlar h2{
+  text-align: center;
+}
+
+.Malumotlar h3{
+  text-align: center;
+}
+
+.Malumotlar p{
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
 body.light-mode .portfolio-gallery img {
   box-shadow: 0 2px 16px #e2e8f099;
   filter: brightness(1) contrast(1) grayscale(0.04);
@@ -468,3 +486,6 @@ body.light-mode footer {
   background: #e2e8f0;
   color: #232526;
 }
+
+
+
